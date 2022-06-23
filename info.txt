@@ -1,0 +1,19 @@
+WEBPACK: SRC/INDEX.JS
+
+REACT:
+
+REACT-DOM:
+REACT-NATIVE:
+ELECTON:
+
+Las aplicaciones de React se forman por uno o más componentes:
+1- Todos los componentes de React son funciones.
+2- Siempre arranca en mayúscula.
+Ej: const Foo () => {}
+    function Foo (){}
+3- Todos los componentes tienen retorno.
+4- Los componentes solo pueden retornar una sola cosa.
+
+JSX: JS and XML
+function foo (){}
+foo () === <foo />
