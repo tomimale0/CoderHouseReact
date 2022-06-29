@@ -22,7 +22,7 @@ const Navbar = () => {
             <Link className="nav-link "to='/category/SE-8'>Ofertas</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link " to='/cart'><CartWidget /></Link>
+            <Link className="nav-link " to={`/cart`}><CartWidget /></Link>
           </li>
          </ul>
          

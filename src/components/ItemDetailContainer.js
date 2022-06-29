@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { traerProductoPorId } from './products' 
 import ItemDetail from './ItemDetail'
 import { useParams } from 'react-router-dom'
+
 const ItemDetailContainer = () => {
     const [product, setProduct] = useState({})
     const {id} = useParams()

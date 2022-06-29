@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function Item({ id, nombre, precio, imagen }) {
+function Item({ id, nombre, imagen }) {
   return (
     <section>
       <div className='card'>
@@ -9,7 +9,7 @@ function Item({ id, nombre, precio, imagen }) {
       
       <img className='cardImage' src={imagen} alt="" />
       <Link to={`/detail/${id}`}>
-        <button  className='infoBtn'>Ver detalles</button>
+        <button  className='cardBtn2'>Ver detalles</button>
       </Link>
       </div>
     </section >
