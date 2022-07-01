@@ -9,7 +9,7 @@ function Item({ id, nombre, imagen }) {
       
       <img className='cardImage' src={imagen} alt="" />
       <Link to={`/detail/${id}`}>
-        <button  className='cardBtn2'>Ver detalles</button>
+        <button  className='cardCondicion'>Ver detalles</button>
       </Link>
       </div>
     </section >
