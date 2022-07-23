@@ -33,10 +33,12 @@ const ItemListContainer = ( {greeting} ) => {
                
     }, [category])
 
+    
+
     return (
-    <section className='welcome'>
-        <h2 className='welcome__greeting'>{greeting}</h2>
-        <section className='welcome__shop'>
+    <section>
+        <h2>{greeting}</h2>
+        <section className='cardList'>
           <ItemList items={items} />
         </section>
     </section>

@@ -8,7 +8,7 @@ import Checkout from './Checkout'
 
 const ItemDetail = ({ product }) => {
 
-  const { addItem, cart } = useContext(contexto)
+  const { addItem } = useContext(contexto)
 
   const [cantidadProducto, setCantidadProducto] = useState()
 
@@ -16,6 +16,7 @@ const ItemDetail = ({ product }) => {
     setCantidadProducto(cantidadProducto)
     addItem(product, cantidadProducto)
   }
+
   return (
     <section className='card2'>
       <h3 className='texto1'>{product.nombre}</h3>
